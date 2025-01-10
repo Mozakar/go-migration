@@ -1,4 +1,4 @@
-package go_migration
+package main
 
 import (
 	"fmt"
@@ -9,6 +9,9 @@ import (
 	"github.com/Mozakar/go-migration/contract"
 )
 
+func main() {
+
+}
 func Run(c contract.Client) {
 	args := os.Args[1:]
 	if len(args) > 0 && strings.ToLower(args[0]) == "go-migration" {
