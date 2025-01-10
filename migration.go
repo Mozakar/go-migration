@@ -1,4 +1,4 @@
-package migration
+package go_migration
 
 import (
 	"fmt"
